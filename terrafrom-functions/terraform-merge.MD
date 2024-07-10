@@ -30,6 +30,17 @@ variable "map1" {
   }
 }
 
+variable "map2" {
+  type    = map(string)
+  default = {
+    key2 = "override_value2"
+    key3 = "value3"
+  }
+}
 
+output "merged_map" {
+  value = merge(var.map1, var.map2)
+}
 ```
+
 

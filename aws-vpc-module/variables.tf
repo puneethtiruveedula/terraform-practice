@@ -1,3 +1,15 @@
+/*===== Project ======*/
+variable "project_name" {
+  type = string
+}
+
+variable "environment" {
+  type = string
+}
+
+variable "common_tags" {
+  type = map
+}
 
 /*===== The VPC ======*/
 variable "vpc_cidr" {
@@ -8,4 +20,15 @@ variable "vpc_cidr" {
 variable "enable_dns_hostnames" {
   type = bool
   default = true
+}
+
+variable "vpc_tags" {
+  type = map
+  default = {}
+}
+
+/*===== IGW ======*/
+variable "igw_tags" {
+  type = map
+  default = {}
 }

@@ -289,4 +289,3 @@ Here,  `var.map1` and `var.map2` both have a nested map under the key config. Th
   }
 }
 ```
-

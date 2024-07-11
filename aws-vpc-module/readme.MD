@@ -1,6 +1,6 @@
 # Custom AWS VPC Module
 
-![alt text](terraform-practice/aws-vpc-module/images/vpc.jpeg)
+![alt text](images/vpc.jpeg)
 
 This module is developed for Expense-Project. We are creating following resources. This module creates resources in first 2 AZ for HA.
 
